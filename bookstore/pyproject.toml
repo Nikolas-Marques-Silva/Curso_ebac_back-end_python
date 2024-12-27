@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstore"
+version = "0.1.0"
+description = ""
+authors = ["Níkolas Marques da Silva <nikolas.marques.da.silva1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.3.4"
+factory-boy = "^3.3.1"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
