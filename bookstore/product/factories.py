@@ -1,7 +1,6 @@
 import factory
 
-from product.models import Category
-from product.models import Product
+from product.models import Product, Category
 
 
 class CategoryFactory(factory.django.DjangoModelFactory):
