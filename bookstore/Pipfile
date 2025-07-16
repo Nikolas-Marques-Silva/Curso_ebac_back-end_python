@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-cleo = "*"
 poetry = "*"
 django = "*"
-django-extensions = "*"
 djangorestframework = "*"
 factory-boy = "*"
+django-debug-toolbar = "*"
+pytest = "*"
 
 [dev-packages]
 
