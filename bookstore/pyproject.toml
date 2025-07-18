@@ -1,5 +1,5 @@
 [project]
-name = "new"
+name = "bookstore"
 version = "0.1.0"
 description = ""
 authors = [
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "new", from = "src"}]
+packages = [{include = "bookstore", from = "src"}]
 
 
 [build-system]
