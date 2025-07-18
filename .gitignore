@@ -14,3 +14,4 @@ bookstore/dist/
 bookstore/build/
 bookstore/*.whl
 bookstore/*.tar.gz
+bookstore/.pytest_cache/
