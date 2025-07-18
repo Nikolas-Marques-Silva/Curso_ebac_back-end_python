@@ -6,12 +6,16 @@ authors = [
     {name = "Níkolas Marques da Silva",email = "nikolas.marques.da.silva1@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">3.10"
 dependencies = [
+    "pip (>=25.1.1,<26.0.0)",
+    "django (>=5.2.4,<6.0.0)",
+    "djangorestframework (>=3.16.0,<4.0.0)",
+    "django-debug-toolbar (>=5.2.0,<6.0.0)",
+    "factory-boy (>=3.3.3,<4.0.0)",
+    "pytest (>=8.4.1,<9.0.0)",
+    "django-extensions (>=4.1,<5.0)"
 ]
-
-[tool.poetry]
-packages = [{include = "bookstore", from = "src"}]
 
 
 [build-system]
