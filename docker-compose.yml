@@ -3,6 +3,8 @@ services:
     image: postgres:17
     ports:
       - 5432:5432
+    networks:
+      - web_backend
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
@@ -17,9 +19,16 @@ services:
       - .:/usr/src/app/
     ports:
       - 8000:8000
+    networks:
+      - web_backend
     env_file:
       - ./env.dev
     depends_on:
       - db
+
+networks:
+  web_backend:
+    driver: bridge
+
 volumes:
   postgres_data:
